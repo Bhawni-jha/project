@@ -1,0 +1,252 @@
+*{
+    text-decoration: none;
+    
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #58cef5, #3d5ff5);
+    color: #333;
+    font-weight: bold;
+}
+
+.header {
+    background: #333;
+    color: white;
+    padding: 40px 30PX;
+    text-align: center;
+    background-image: url(db.webp);
+    font-size: 20px;
+
+}
+.header1:hover{
+  animation: fadeIn 1s ease-in-out;}
+    
+    @keyframes fadeIn {
+      from {
+        opacity: 0.2;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1200px;
+    flex-wrap: wrap;
+}
+.more-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 1.5rem;
+}
+.more-item {
+    flex: 1 1 calc(33% - 2rem);
+    border: 1px solid #1aa8fa;
+    border-radius: 5px;
+    padding: 1rem;
+    background-color: #bdd6f7;
+    box-shadow: 0 2px 5px rgba(63, 62, 62, 0.1);
+}
+.more:hover{
+    background-color:rgba(240, 242, 244, 0.06);
+}
+
+
+.nav-links {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+
+.nav-links li {
+    margin: 0 15px;
+    
+}
+.nav-link1:hover{
+    animation: shakeAnimation 0.5s ease-in-out;
+}
+@keyframes shakeAnimation {
+    0%, 100% {
+      transform: translateX(0);
+    }
+    25% {
+      transform: translateX(-10px);
+    }
+    50% {
+      transform: translateX(10px);
+    }
+    75% {
+      transform: translateX(-10px);
+    }
+  }
+  .nav-link2:hover{
+    animation: shakeAnimation 0.5s ease-in-out;
+}
+@keyframes shakeAnimation {
+    0%, 100% {
+      transform: translateX(0);
+    }
+    25% {
+      transform: translateX(-10px);
+    }
+    50% {
+      transform: translateX(10px);
+    }
+    75% {
+      transform: translateX(-10px);
+    }
+  }
+  .nav-link3:hover{
+    animation: shakeAnimation 0.5s ease-in-out;
+}
+@keyframes shakeAnimation {
+    0%, 100% {
+      transform: translateX(0);
+    }
+    25% {
+      transform: translateX(-10px);
+    }
+    50% {
+      transform: translateX(10px);
+    }
+    75% {
+      transform: translateX(-10px);
+    }
+  }
+  .nav-link4:hover{
+    animation: shakeAnimation 0.5s ease-in-out;
+}
+@keyframes shakeAnimation {
+    0%, 100% {
+      transform: translateX(0);
+    }
+    25% {
+      transform: translateX(-10px);
+    }
+    50% {
+      transform: translateX(10px);
+    }
+    75% {
+      transform: translateX(-10px);
+    }
+  }
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+
+
+.section {
+    padding: 50px;
+    text-align: center;
+}
+
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.about-img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    margin: 20px;
+    transition: transform 0.5s;
+}
+
+.about-img:hover {
+    transform: scale(1.1);
+}
+
+.about-text {
+    max-width: 600px;
+    text-align: left;
+}
+
+.video-container iframe {
+    border: none;
+    border-radius: 5px;
+    transition: transform 0.2s;
+}
+.video-container:hover{
+   
+    transform: scale(0.9);
+    
+}
+
+
+.location iframe {
+    width: 50%;
+    height: 300px;
+    border: none;
+    border-radius: 10px;
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; transform: translateY(20px); }
+    100% { opacity: 1; transform: translateY(0); }
+}
+
+.section {
+    animation: fadeIn 1s ease-out;
+}
+li{
+  padding:5px;
+}
+
+.more-item{
+  font-family: arial;
+  font-weight:500;
+  font-style: unset;
+  font-display:unset;
+  font-size:18px;
+  line-height: normal;
+  line-break: auto;
+ 
+
+}
+.more-item:hover{
+  animation: shakeAnimation 0.5s ease-in-out;
+  background-color: #eff1f973;
+  
+
+}
+
+@keyframes shakeAnimation {
+  0%, 100% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-10px);
+  }
+  50% {
+    transform: translateX(10px);
+  }
+  75% {
+    transform: translateX(-10px);
+  }
+}
+
+
+
+
